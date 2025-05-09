@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Al-Delimi</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div><img class="logo" src="./assets/logo.png" alt=""></div>
+    <ul id="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Service</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- BANNER / CAROUSEL -->
+  <div class="carousel" id="carousel">
+    <div class="slides">
+      <div class="slide" style="background-image: url('./assets/chips.jpg');"><p>Delicious, hot, and fresh pizzas right at your doorstep!</p></div>
+      <div class="slide" style="background-image: url('./assets/burger.jpg');"><p>Juicy burgers with crispy fries - foodies' favorite!</p></div>
+      <div class="slide" style="background-image: url('./assets/stick.jpg');"><p>Sweet treats that melt in your mouth.</p></div>
+      <div class="slide" style="background-image: url('./assets/salad.jpg');"><p>Fresh and healthy salads made with love.</p></div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <h2 class="section-heading">About Us</h2>
+    <div class="about-content">
+      <img src="./assets/about.jpg" alt="About Food">
+      <p>At Foodie, we bring the best cuisines from around the world to your table. Every dish is prepared with passion and fresh ingredients to ensure an unforgettable experience for every food lover.
+        At Foodie, we bring the best cuisines from around the world to your table. Every dish is prepared with passion and fresh ingredients to ensure an unforgettable experience for every food lover.
+        At Foodie, we bring the best cuisines from around the world to your table. Every dish is prepared with passion and fresh ingredients to ensure an unforgettable experience for every food lover.
+        At Foodie, we bring the best cuisines from around the world to your table. Every dish is prepared with passion and fresh ingredients to ensure an unforgettable experience for every food lover.
+      </p>
+    </div>
+  </section>
+
+  <!-- VISION -->
+  <section class="section" id="services">
+    <h2 class="section-heading vision">Our Vision</h2>
+    <div class="cards">
+      <div class="card">To deliver mouth-watering food made with the freshest ingredients.</div>
+      <div class="card">To build a community of food lovers connected through taste.</div>
+      <div class="card">To innovate in culinary arts and surprise our customers.</div>
+      <div class="card">To ensure timely delivery and excellent service, every time.</div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS / BRAND SLIDER -->
+  <section class="section testi">
+    <h2 class="section-heading">Our Brands</h2>
+      <div class="brand-slides">
+        <img class="brand" src="./assets/k.png" alt="">
+        <img class="brand" src="./assets/f.png" alt="">
+        <img class="brand" src="./assets/s.png" alt="">
+        <img class="brand" src="./assets/e.png" alt="">
+      </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>123 Food Street, Flavor Town, FL 12345</p>
+    <p>Phone: (123) 456-7890</p>
+    <p>&copy; 2025 Foodie. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -15,7 +15,7 @@ nav {
     padding: 1rem 2rem;
     margin: auto 5%;
     background: white; 
-    color: red;
+    color: rgb(93, 17, 17);
 }
 
 .logo { 
@@ -32,7 +32,7 @@ nav ul li {
 }
 
 nav ul li a { 
-    color: red;
+    color: rgb(93, 17, 17);
     text-decoration: none;
 }
 
@@ -72,7 +72,7 @@ nav ul li a {
 }
 
 .section-heading { 
-    color: red;
+    color: rgb(93, 17, 17);
     padding: 2rem 1rem;
     text-align: center;
     text-decoration: underline;
@@ -101,7 +101,7 @@ nav ul li a {
 }
 
 .activity {
-    color: red;
+    color: rgb(93, 17, 17);
     text-decoration: underline;
 }
 
@@ -152,7 +152,7 @@ nav ul li a {
 }
 
 footer { 
-    background: #333;
+    background-color: rgb(93, 17, 17);
     color: white;
     text-align: center;
     padding: 2rem 1rem;

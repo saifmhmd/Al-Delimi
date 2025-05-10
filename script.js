@@ -9,7 +9,7 @@
     setInterval(() => {
       index = (index + 1) % 4;
       slides.style.transform = `translateX(-${index * 100}%)`;
-    }, 4000);
+    }, 2000);
 
     // Brand Carousel
     // const brandSlides = document.querySelector('.brand-slides');
